@@ -1,0 +1,27 @@
+<head>
+<script type="text/javascript">
+console.log("%c Yes, this is a redirect page.  It randomly selects one of two surveys ", "font: 2em sans-serif; color: brown; background-color: aquamarine;");
+console.log("%c Please only take one of the two surveys! Thank you! ", "font: 2em sans-serif; color: brown; background-color: aquamarine;");
+if(Math.random() < 0.5) {
+  window.location = "https://goo.gl/forms/oqmRnWUMYxoVrGMr2";
+} else {
+  window.location = "https://goo.gl/forms/xTVooKEzWED1dy2n2";
+}
+  
+</script>
+</head>
+<body>
+<p>
+<b>NOTICE</b> If you see this message, please do not take both surveys.  This page is intentionally designed to make you take only one of the two surveys.
+</p>
+<p>
+Thank you for your cooperation!
+</p>
+</body>
+
+<!-- ***************************** -->
+<!-- **           NOTICE        ** -->
+<!-- **   Please do not take    ** -->
+<!-- **  this survey more than  ** -->
+<!-- **    once!  Thank you!    ** -->
+<!-- ***************************** -->
